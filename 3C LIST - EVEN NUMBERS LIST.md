@@ -1,31 +1,35 @@
 # Exp.No:3c
-## LIST - EVEN NUMBERS LIST
-
+## LIST - SORTING STUDENT NAMES
 ---
-
 ### AIM  
-To write a Python function that accepts a number **N** and creates a list containing all even numbers up to **N**.
+To write a non-parameterized Python function to print the student names in the list in attendance order (alphabetical order) as entered by the user.
 
 ---
-
 ### ALGORITHM
-
 1. Begin the program.  
-2. Accept an integer `a` from the user.  
-3. Create an empty list `l`.  
-4. Use a `for` loop to iterate through numbers from `1` to `a - 1`:  
-   - For each number `i`, check if it is even using `i % 2 == 0`.  
-   - If it is even, append `i` to the list `l`.  
-5. Print the final list `l` containing all the even numbers.  
-6. Terminate the program.
+2. Define a non-parameterized function `sortlist()` with the following steps:  
+   - Accept a list of student names from the user using `input()` and `eval()`.  
+   - Sort the list using the `sort()` method.  
+   - Print the sorted list.  
+3. Call the function `sortlist()`.  
+4. Terminate the program.
 
 ---
-
 ### PROGRAM
+```python
+# Reg.No- 212222060100
+# Name- Jothivanan T
+def sortlist():
+    l = eval(input())
+    l.sort()
+    print(l)
 
-```
+sortlist()
 ```
 
 ### OUTPUT
 
+<img width="1237" height="205" alt="image" src="https://github.com/user-attachments/assets/5ebc2509-5c7a-407e-ad3d-423118fb5b1b" />
+
 ### RESULT
+Thus, the Python program to print student names in attendance order using a non-parameterized function has been successfully executed and the output is verified.
